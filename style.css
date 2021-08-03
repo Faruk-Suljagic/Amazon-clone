@@ -1,0 +1,17 @@
+.main-section-banner {
+  background-image: url(./images/banner.jpg);
+  background-size: cover;
+}
+.category {
+  width: 60%;
+  margin: 15px 0px;
+  padding: 0;
+  justify-content: space-around;
+}
+.categories-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  background-color: #fff;
+}
