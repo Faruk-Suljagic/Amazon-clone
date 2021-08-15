@@ -9,15 +9,19 @@
       rel="stylesheet"
     />
     <link rel="stylesheet" href="style.css" />
+    <script src="https://www.gstatic.com/firebasejs/8.9.1/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.9.1/firebase-analytics.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.8.1/firebase-firestore.js"></script>
+    <script src="./firebase.js"></script>
+    <script src="./script.js"></script>
+
     <script
       src="https://cdn.jsdelivr.net/npm/jdenticon@3.1.0/dist/jdenticon.min.js"
       async
       integrity="sha384-VngWWnG9GS4jDgsGEUNaoRQtfBGiIKZTiXwm9KpgAeaRn6Y/1tAFiyXqSzqC8Ga/"
       crossorigin="anonymous"
     ></script>
-    <script src="https://www.gstatic.com/firebasejs/8.9.1/firebase-app.js"></script>
 
-    <script src="https://www.gstatic.com/firebasejs/8.9.1/firebase-analytics.js"></script>
     <title>Amazon 2.0</title>
   </head>
   <body>
@@ -605,85 +609,8 @@
           </div>
           <div class="main-section-deals">
             <h1 class="text-2xl font-bold text-gray-700 mb-5">Hot Deals 🔥</h1>
-            <div
-              class="main-section-products flex flex-row justify-around w-98"
-            >
-              <div class="main-product">
-                <div class="product-image w-48 h-52 bg-white rounded-lg">
-                  <img
-                    class="w-full h-full object-contain p-4"
-                    src="https://assets.nintendo.com/image/upload/ncom/en_US/switch/split-cta-system-mobile"
-                    alt="nintendo"
-                  />
-                </div>
-                <div class="product-name text-gray-700 font-bold mt-2 text-sm">
-                  Nintendo Switch(2021)
-                </div>
-                <div class="product-make text-green-700">Nintendo</div>
-                <div class="product-rating text-yellow-300 font-bold my-1">
-                  ⭐️⭐️⭐️⭐️ 4.5
-                </div>
-                <div class="product-price font-bold text-green-700 text-lg">
-                  290.00$
-                </div>
-              </div>
-              <div class="main-product">
-                <div class="product-image w-48 h-52 bg-white rounded-lg">
-                  <img
-                    class="w-full h-full object-contain p-4"
-                    src="http://prodimage.images-bn.com/pimages/0686141100085_p0_v1_s1200x630.jpg"
-                    alt="hotwheels"
-                  />
-                </div>
-                <div class="product-name text-gray-700 font-bold mt-2 text-sm">
-                  Hot Wheels ThunderRoad
-                </div>
-                <div class="product-make text-green-700">Hot Wheels</div>
-                <div class="product-rating text-yellow-300 font-bold my-1">
-                  ⭐️⭐️⭐️⭐️⭐️ 5
-                </div>
-                <div class="product-price font-bold text-green-700 text-lg">
-                  30.0$
-                </div>
-              </div>
-              <div class="main-product">
-                <div class="product-image w-48 h-52 bg-white rounded-lg">
-                  <img
-                    class="w-full h-full object-contain p-4"
-                    src="https://www.samys.com/images/product/main/S-069460x1000.jpeg"
-                    alt="nintendo"
-                  />
-                </div>
-                <div class="product-name text-gray-700 font-bold mt-2 text-sm">
-                  DJI Air 2S
-                </div>
-                <div class="product-make text-green-700">DJI</div>
-                <div class="product-rating text-yellow-300 font-bold my-1">
-                  ⭐️⭐️⭐️⭐️ 4.5
-                </div>
-                <div class="product-price font-bold text-green-700 text-lg">
-                  999.00$
-                </div>
-              </div>
-              <div class="main-product">
-                <div class="product-image w-48 h-52 bg-white rounded-lg">
-                  <img
-                    class="w-full h-full object-contain p-4"
-                    src="https://images.musicstore.de/images/1280/esp-ltd-alexi-200-electric-guitar-_1_GIT0010399-000.jpg"
-                    alt="nintendo"
-                  />
-                </div>
-                <div class="product-name text-gray-700 font-bold mt-2 text-sm">
-                  ESP LTD Alexi-200 Electric Guitar
-                </div>
-                <div class="product-make text-green-700">ESP</div>
-                <div class="product-rating text-yellow-300 font-bold my-1">
-                  ⭐️⭐️⭐️ 3
-                </div>
-                <div class="product-price font-bold text-green-700 text-lg">
-                  687.98$
-                </div>
-              </div>
+            <div class="main-section-products flex flex-row justify-start w-98">
+              <div class="main-product"></div>
             </div>
           </div>
         </div>
